@@ -34,9 +34,22 @@ const Home=()=> {
     }
 };
 
-    return (
-      <>
 
+// var loader=document.getElementById("preloader");
+// window.addEventListener("load",function(){
+//   loader.style.display="none";
+// })
+var loader = document.getElementById("preloader");
+    function hidePreloader() {
+        loader.style.display = "none";
+    }
+    var timeToHide = 5000;
+    setTimeout(hidePreloader, timeToHide);
+    window.addEventListener("click", hidePreloader);
+
+    return (
+      <> 
+   <div id='preloader'></div>
 <div className="container-faces">
       <video autoPlay loop muted plays-inline="true" className="backvideo-faces">
       <source src="../images/Frontpage/frontbg.mp4" type="video/mp4"/>
@@ -54,7 +67,6 @@ const Home=()=> {
         </div>
     </div>
 <hr/>
-
 
 
 {/*---------------------- About Section----------------------*/}
@@ -83,10 +95,6 @@ const Home=()=> {
     </div>
   </div>
 </section>
-
-
-
-
 
 
 
@@ -386,7 +394,6 @@ const Home=()=> {
     </div>
   </div>
 </section>
-
 </>
     )
   }
