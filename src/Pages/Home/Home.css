@@ -381,14 +381,14 @@ transition: 0.3 ease-in;
     overflow: hidden;
 }
 
-#preloader{
+/* #preloader{
   background: rgb(255, 255, 255) url("E:\faces_web\Faces\public\images\Frontpage\loader.gif") no-repeat center center;
   background-size: 30%;
   height: 100vh;
   width: 100%;
   position: fixed;
   z-index: 50;
-}
+} */
 /* #preloader {
   /* Your preloader styles here */
   /* background-color: #f0f0f0;
