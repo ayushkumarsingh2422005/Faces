@@ -19,6 +19,7 @@ function App() {
   }, []);
   return (
     <div className="App">
+
       <div className="scroll-container" ref={scrollRef}>
         <BrowserRouter>
           <Routes>
@@ -35,8 +36,11 @@ function App() {
           </Routes>
         </BrowserRouter>
       </div>
+      {/* <Navbar/> 
+      <Footer/> */}
 
-      {/* <Navbar/> */}
+    
+
     </div>
   );
 }

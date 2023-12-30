@@ -3,7 +3,7 @@ import './Footer.css';
 function Footer() {
   return (
     <>
-      
+{/*       
 <div class="main"></div>
 <div class="footer">
   <div class="bubbles">
@@ -155,7 +155,16 @@ function Footer() {
       <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="blob"></feColorMatrix>
     </filter>
   </defs>
-</svg>
+</svg> */}
+
+
+  <div>
+    <footer>
+      <div>
+        Footer 
+        </div>
+    </footer>
+  </div>
     </>
   )
 }
